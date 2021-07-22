@@ -1,0 +1,38 @@
+
+
+Project Overview
+
+ admin part:-
+=============
+
+ first Admin create company. And admin create a companis or admin companis atcive or inative. And company belongs_to admin. and admin create
+ a many compay. And admin create a partnes or admin create a many partnes.  
+
+----------------------------------------------------------------------------------------------------------------------------------------------- 
+ 
+ admin = has_many :companies   
+         has_many :partners
+         has_many :reporting
+
+company = belongs_to :admin, optional true.
+
+partnir = belong_to :admin
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Company:-
+==========
+ admin prowaid a campany login Id and Password
+ 
+ Login and Dashbord:-
+ ---------------------
+
+ first company land page in login. Company login and Company Show add card and Company add a card and lend a Company dashbord. dashbord
+ show search setting and notiffication, setting work company update and add Lead Delivery and Notifications add in setting. Calendar
+ and aad balance. And company dashbord showing Leads, Appointments, Shoed, Closed, CPL(Cost per Leads) in $, CPA(Cost per appointments)
+ in $, CPS(Cost Per Show) in $, CPCL(Cost per Close) in $, Spend in %, LTA in %, Show Ratio in %, Close Ratio in %.
+
+       
+ 
+
+
